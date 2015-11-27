@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		351075711C04613D004A6CA8 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 351075701C04613D004A6CA8 /* icon@2x.png */; };
+		355CB00B1C05900600ED6A68 /* DatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 355CB0091C05900600ED6A68 /* DatePickerViewController.m */; };
+		355CB00C1C05900600ED6A68 /* DatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 355CB00A1C05900600ED6A68 /* DatePickerViewController.xib */; };
+		6806D2DA1BCCE5980012CB93 /* HYLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6806D2D91BCCE5980012CB93 /* HYLoginViewController.m */; };
+		6806D2DD1BCCE6480012CB93 /* HYRecordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6806D2DC1BCCE6480012CB93 /* HYRecordTableViewController.m */; };
+		6806D2E01BCCE6880012CB93 /* HYSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6806D2DF1BCCE6880012CB93 /* HYSearchViewController.m */; };
+		6806D2E31BCCE6CB0012CB93 /* HYMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6806D2E21BCCE6CB0012CB93 /* HYMainViewController.m */; };
+		6806D2E61BCCE6D90012CB93 /* HYHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6806D2E51BCCE6D90012CB93 /* HYHelpViewController.m */; };
+		6806D2E91BCCE6EC0012CB93 /* HYCurrentLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6806D2E81BCCE6EC0012CB93 /* HYCurrentLocationViewController.m */; };
+		68209EE41BD1F3A100651E3F /* HYRemoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68209EE21BD1F3A100651E3F /* HYRemoteViewController.m */; };
+		68209EE51BD1F3A100651E3F /* HYRemoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68209EE31BD1F3A100651E3F /* HYRemoteViewController.xib */; };
+		684B5E401BCCCC9B00A5126A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 684B5E3F1BCCCC9B00A5126A /* main.m */; };
+		684B5E431BCCCC9B00A5126A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 684B5E421BCCCC9B00A5126A /* AppDelegate.m */; };
+		684B5E491BCCCC9B00A5126A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 684B5E471BCCCC9B00A5126A /* Main.storyboard */; };
+		684B5E4B1BCCCC9B00A5126A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 684B5E4A1BCCCC9B00A5126A /* Images.xcassets */; };
+		684B5E4E1BCCCC9B00A5126A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 684B5E4C1BCCCC9B00A5126A /* LaunchScreen.xib */; };
+		684B5E5A1BCCCC9B00A5126A /* HYRemoteControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 684B5E591BCCCC9B00A5126A /* HYRemoteControlTests.m */; };
+		6862DC241BCE488E00CCD525 /* HYRecordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6862DC221BCE488E00CCD525 /* HYRecordTableViewCell.m */; };
+		6862DC251BCE488E00CCD525 /* HYRecordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6862DC231BCE488E00CCD525 /* HYRecordTableViewCell.xib */; };
+		688BB3B21BCE3382000AA4CA /* HYRemote.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 688BB3B11BCE3382000AA4CA /* HYRemote.sqlite */; };
+		688BB3B41BCE33A0000AA4CA /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 688BB3B31BCE33A0000AA4CA /* libsqlite3.0.dylib */; };
+		688BB3C21BCE35A7000AA4CA /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BB3B71BCE35A7000AA4CA /* FMDatabase.m */; };
+		688BB3C31BCE35A7000AA4CA /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BB3B91BCE35A7000AA4CA /* FMDatabaseAdditions.m */; };
+		688BB3C41BCE35A7000AA4CA /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BB3BB1BCE35A7000AA4CA /* FMDatabasePool.m */; };
+		688BB3C51BCE35A7000AA4CA /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BB3BD1BCE35A7000AA4CA /* FMDatabaseQueue.m */; };
+		688BB3C61BCE35A7000AA4CA /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BB3BF1BCE35A7000AA4CA /* FMResultSet.m */; };
+		688BB3C71BCE35A7000AA4CA /* HYfmbdManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BB3C11BCE35A7000AA4CA /* HYfmbdManager.m */; };
+		688BB3CB1BCE3997000AA4CA /* HYAdressInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 688BB3CA1BCE3997000AA4CA /* HYAdressInfo.m */; };
+		68B8EAE01BCDDD9700E12201 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B8EADC1BCDDD9700E12201 /* MBProgressHUD+MJ.m */; };
+		68B8EAE11BCDDD9700E12201 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 68B8EADD1BCDDD9700E12201 /* MBProgressHUD.bundle */; };
+		68B8EAE21BCDDD9700E12201 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B8EADF1BCDDD9700E12201 /* MBProgressHUD.m */; };
+		68B8EAE61BCDE63300E12201 /* BaiduMapAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B8EAE51BCDE63300E12201 /* BaiduMapAPI.framework */; };
+		68B8EAEA1BCDE9DF00E12201 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B8EAE91BCDE9DF00E12201 /* CoreLocation.framework */; };
+		68B8EAEC1BCDE9E700E12201 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B8EAEB1BCDE9E700E12201 /* QuartzCore.framework */; };
+		68B8EAEE1BCDE9F100E12201 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B8EAED1BCDE9F100E12201 /* OpenGLES.framework */; };
+		68B8EAF01BCDE9FC00E12201 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B8EAEF1BCDE9FC00E12201 /* SystemConfiguration.framework */; };
+		68B8EAF21BCDEA0E00E12201 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B8EAF11BCDEA0E00E12201 /* CoreGraphics.framework */; };
+		68B8EAF41BCDEA1800E12201 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B8EAF31BCDEA1800E12201 /* Security.framework */; };
+		68B8EAF81BCDEB5100E12201 /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 68B8EAF71BCDEB5100E12201 /* mapapi.bundle */; };
+		68B8EAFB1BCDF00300E12201 /* HYDeviceLocationViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 68B8EAFA1BCDF00300E12201 /* HYDeviceLocationViewController.mm */; };
+		68BCC4A91BD0D9FE00E802B4 /* JuheApis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BCC4A81BD0D9FE00E802B4 /* JuheApis.framework */; };
+		68BCC4AB1BD0DA5500E802B4 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BCC4AA1BD0DA5500E802B4 /* AdSupport.framework */; };
+		68BCC4AD1BD0DA6500E802B4 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BCC4AC1BD0DA6500E802B4 /* CoreTelephony.framework */; };
+		68BCC4AF1BD0DA7F00E802B4 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BCC4AE1BD0DA7F00E802B4 /* MessageUI.framework */; };
+		68BCC4B11BD0DAAA00E802B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BCC4B01BD0DAAA00E802B4 /* UIKit.framework */; };
+		68BCC4B31BD0DAB500E802B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BCC4B21BD0DAB500E802B4 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		684B5E541BCCCC9B00A5126A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 684B5E321BCCCC9B00A5126A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 684B5E391BCCCC9B00A5126A;
+			remoteInfo = HYRemoteControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		351075701C04613D004A6CA8 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		355CB0081C05900600ED6A68 /* DatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerViewController.h; sourceTree = "<group>"; };
+		355CB0091C05900600ED6A68 /* DatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerViewController.m; sourceTree = "<group>"; };
+		355CB00A1C05900600ED6A68 /* DatePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickerViewController.xib; sourceTree = "<group>"; };
+		6806D2D81BCCE5980012CB93 /* HYLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYLoginViewController.h; sourceTree = "<group>"; };
+		6806D2D91BCCE5980012CB93 /* HYLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYLoginViewController.m; sourceTree = "<group>"; };
+		6806D2DB1BCCE6480012CB93 /* HYRecordTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYRecordTableViewController.h; sourceTree = "<group>"; };
+		6806D2DC1BCCE6480012CB93 /* HYRecordTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYRecordTableViewController.m; sourceTree = "<group>"; };
+		6806D2DE1BCCE6880012CB93 /* HYSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYSearchViewController.h; sourceTree = "<group>"; };
+		6806D2DF1BCCE6880012CB93 /* HYSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYSearchViewController.m; sourceTree = "<group>"; };
+		6806D2E11BCCE6CB0012CB93 /* HYMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYMainViewController.h; sourceTree = "<group>"; };
+		6806D2E21BCCE6CB0012CB93 /* HYMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYMainViewController.m; sourceTree = "<group>"; };
+		6806D2E41BCCE6D90012CB93 /* HYHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYHelpViewController.h; sourceTree = "<group>"; };
+		6806D2E51BCCE6D90012CB93 /* HYHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYHelpViewController.m; sourceTree = "<group>"; };
+		6806D2E71BCCE6EC0012CB93 /* HYCurrentLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYCurrentLocationViewController.h; sourceTree = "<group>"; };
+		6806D2E81BCCE6EC0012CB93 /* HYCurrentLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYCurrentLocationViewController.m; sourceTree = "<group>"; };
+		68209EE11BD1F3A100651E3F /* HYRemoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYRemoteViewController.h; sourceTree = "<group>"; };
+		68209EE21BD1F3A100651E3F /* HYRemoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYRemoteViewController.m; sourceTree = "<group>"; };
+		68209EE31BD1F3A100651E3F /* HYRemoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYRemoteViewController.xib; sourceTree = "<group>"; };
+		684B5E3A1BCCCC9B00A5126A /* HYRemoteControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYRemoteControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		684B5E3E1BCCCC9B00A5126A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		684B5E3F1BCCCC9B00A5126A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		684B5E411BCCCC9B00A5126A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		684B5E421BCCCC9B00A5126A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		684B5E481BCCCC9B00A5126A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		684B5E4A1BCCCC9B00A5126A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		684B5E4D1BCCCC9B00A5126A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		684B5E531BCCCC9B00A5126A /* HYRemoteControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYRemoteControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		684B5E581BCCCC9B00A5126A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		684B5E591BCCCC9B00A5126A /* HYRemoteControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYRemoteControlTests.m; sourceTree = "<group>"; };
+		6862DC211BCE488E00CCD525 /* HYRecordTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYRecordTableViewCell.h; sourceTree = "<group>"; };
+		6862DC221BCE488E00CCD525 /* HYRecordTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYRecordTableViewCell.m; sourceTree = "<group>"; };
+		6862DC231BCE488E00CCD525 /* HYRecordTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HYRecordTableViewCell.xib; sourceTree = "<group>"; };
+		688BB3B11BCE3382000AA4CA /* HYRemote.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = HYRemote.sqlite; sourceTree = "<group>"; };
+		688BB3B31BCE33A0000AA4CA /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libsqlite3.0.dylib; sourceTree = "<group>"; };
+		688BB3B61BCE35A7000AA4CA /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		688BB3B71BCE35A7000AA4CA /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		688BB3B81BCE35A7000AA4CA /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		688BB3B91BCE35A7000AA4CA /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		688BB3BA1BCE35A7000AA4CA /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		688BB3BB1BCE35A7000AA4CA /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		688BB3BC1BCE35A7000AA4CA /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		688BB3BD1BCE35A7000AA4CA /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		688BB3BE1BCE35A7000AA4CA /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		688BB3BF1BCE35A7000AA4CA /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		688BB3C01BCE35A7000AA4CA /* HYfmbdManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYfmbdManager.h; sourceTree = "<group>"; };
+		688BB3C11BCE35A7000AA4CA /* HYfmbdManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYfmbdManager.m; sourceTree = "<group>"; };
+		688BB3C91BCE3997000AA4CA /* HYAdressInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYAdressInfo.h; sourceTree = "<group>"; };
+		688BB3CA1BCE3997000AA4CA /* HYAdressInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYAdressInfo.m; sourceTree = "<group>"; };
+		68B8EADB1BCDDD9700E12201 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		68B8EADC1BCDDD9700E12201 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		68B8EADD1BCDDD9700E12201 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		68B8EADE1BCDDD9700E12201 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		68B8EADF1BCDDD9700E12201 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		68B8EAE51BCDE63300E12201 /* BaiduMapAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI.framework; sourceTree = "<group>"; };
+		68B8EAE91BCDE9DF00E12201 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		68B8EAEB1BCDE9E700E12201 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		68B8EAED1BCDE9F100E12201 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		68B8EAEF1BCDE9FC00E12201 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		68B8EAF11BCDEA0E00E12201 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		68B8EAF31BCDEA1800E12201 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		68B8EAF71BCDEB5100E12201 /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = mapapi.bundle; path = BaiduMapAPI.framework/Resources/mapapi.bundle; sourceTree = "<group>"; };
+		68B8EAF91BCDF00300E12201 /* HYDeviceLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYDeviceLocationViewController.h; sourceTree = "<group>"; };
+		68B8EAFA1BCDF00300E12201 /* HYDeviceLocationViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HYDeviceLocationViewController.mm; sourceTree = "<group>"; };
+		68BCC4A81BD0D9FE00E802B4 /* JuheApis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JuheApis.framework; sourceTree = "<group>"; };
+		68BCC4AA1BD0DA5500E802B4 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		68BCC4AC1BD0DA6500E802B4 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		68BCC4AE1BD0DA7F00E802B4 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		68BCC4B01BD0DAAA00E802B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		68BCC4B21BD0DAB500E802B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		684B5E371BCCCC9B00A5126A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68BCC4B31BD0DAB500E802B4 /* Foundation.framework in Frameworks */,
+				68BCC4B11BD0DAAA00E802B4 /* UIKit.framework in Frameworks */,
+				68BCC4AF1BD0DA7F00E802B4 /* MessageUI.framework in Frameworks */,
+				68BCC4AD1BD0DA6500E802B4 /* CoreTelephony.framework in Frameworks */,
+				68BCC4AB1BD0DA5500E802B4 /* AdSupport.framework in Frameworks */,
+				68B8EAF41BCDEA1800E12201 /* Security.framework in Frameworks */,
+				68B8EAF21BCDEA0E00E12201 /* CoreGraphics.framework in Frameworks */,
+				68BCC4A91BD0D9FE00E802B4 /* JuheApis.framework in Frameworks */,
+				68B8EAF01BCDE9FC00E12201 /* SystemConfiguration.framework in Frameworks */,
+				68B8EAEE1BCDE9F100E12201 /* OpenGLES.framework in Frameworks */,
+				68B8EAEC1BCDE9E700E12201 /* QuartzCore.framework in Frameworks */,
+				68B8EAEA1BCDE9DF00E12201 /* CoreLocation.framework in Frameworks */,
+				688BB3B41BCE33A0000AA4CA /* libsqlite3.0.dylib in Frameworks */,
+				68B8EAE61BCDE63300E12201 /* BaiduMapAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		684B5E501BCCCC9B00A5126A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3510756F1C0460FA004A6CA8 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				351075701C04613D004A6CA8 /* icon@2x.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		6806D2D71BCCE57D0012CB93 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6806D2D81BCCE5980012CB93 /* HYLoginViewController.h */,
+				6806D2D91BCCE5980012CB93 /* HYLoginViewController.m */,
+				6806D2DB1BCCE6480012CB93 /* HYRecordTableViewController.h */,
+				6806D2DC1BCCE6480012CB93 /* HYRecordTableViewController.m */,
+				6806D2DE1BCCE6880012CB93 /* HYSearchViewController.h */,
+				6806D2DF1BCCE6880012CB93 /* HYSearchViewController.m */,
+				6806D2E11BCCE6CB0012CB93 /* HYMainViewController.h */,
+				6806D2E21BCCE6CB0012CB93 /* HYMainViewController.m */,
+				6806D2E41BCCE6D90012CB93 /* HYHelpViewController.h */,
+				6806D2E51BCCE6D90012CB93 /* HYHelpViewController.m */,
+				6806D2E71BCCE6EC0012CB93 /* HYCurrentLocationViewController.h */,
+				6806D2E81BCCE6EC0012CB93 /* HYCurrentLocationViewController.m */,
+				68B8EAF91BCDF00300E12201 /* HYDeviceLocationViewController.h */,
+				68B8EAFA1BCDF00300E12201 /* HYDeviceLocationViewController.mm */,
+				355CB0081C05900600ED6A68 /* DatePickerViewController.h */,
+				355CB0091C05900600ED6A68 /* DatePickerViewController.m */,
+				355CB00A1C05900600ED6A68 /* DatePickerViewController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		684B5E311BCCCC9B00A5126A = {
+			isa = PBXGroup;
+			children = (
+				684B5E3C1BCCCC9B00A5126A /* HYRemoteControl */,
+				684B5E561BCCCC9B00A5126A /* HYRemoteControlTests */,
+				684B5E3B1BCCCC9B00A5126A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		684B5E3B1BCCCC9B00A5126A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				684B5E3A1BCCCC9B00A5126A /* HYRemoteControl.app */,
+				684B5E531BCCCC9B00A5126A /* HYRemoteControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		684B5E3C1BCCCC9B00A5126A /* HYRemoteControl */ = {
+			isa = PBXGroup;
+			children = (
+				6862DC181BCE468A00CCD525 /* View */,
+				688BB3C81BCE3985000AA4CA /* Model */,
+				688BB3B51BCE3595000AA4CA /* fmdb */,
+				688BB3AE1BCE2FAE000AA4CA /* Resource */,
+				68B8EAD91BCDDD6900E12201 /* Frameworks */,
+				6806D2D71BCCE57D0012CB93 /* Controller */,
+				684B5E411BCCCC9B00A5126A /* AppDelegate.h */,
+				684B5E421BCCCC9B00A5126A /* AppDelegate.m */,
+				684B5E471BCCCC9B00A5126A /* Main.storyboard */,
+				684B5E4A1BCCCC9B00A5126A /* Images.xcassets */,
+				684B5E4C1BCCCC9B00A5126A /* LaunchScreen.xib */,
+				684B5E3D1BCCCC9B00A5126A /* Supporting Files */,
+			);
+			path = HYRemoteControl;
+			sourceTree = "<group>";
+		};
+		684B5E3D1BCCCC9B00A5126A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3510756F1C0460FA004A6CA8 /* image */,
+				684B5E3E1BCCCC9B00A5126A /* Info.plist */,
+				684B5E3F1BCCCC9B00A5126A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		684B5E561BCCCC9B00A5126A /* HYRemoteControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				684B5E591BCCCC9B00A5126A /* HYRemoteControlTests.m */,
+				684B5E571BCCCC9B00A5126A /* Supporting Files */,
+			);
+			path = HYRemoteControlTests;
+			sourceTree = "<group>";
+		};
+		684B5E571BCCCC9B00A5126A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				684B5E581BCCCC9B00A5126A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6862DC181BCE468A00CCD525 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6862DC211BCE488E00CCD525 /* HYRecordTableViewCell.h */,
+				6862DC221BCE488E00CCD525 /* HYRecordTableViewCell.m */,
+				6862DC231BCE488E00CCD525 /* HYRecordTableViewCell.xib */,
+				68209EE11BD1F3A100651E3F /* HYRemoteViewController.h */,
+				68209EE21BD1F3A100651E3F /* HYRemoteViewController.m */,
+				68209EE31BD1F3A100651E3F /* HYRemoteViewController.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		688BB3AE1BCE2FAE000AA4CA /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				688BB3B31BCE33A0000AA4CA /* libsqlite3.0.dylib */,
+				688BB3B11BCE3382000AA4CA /* HYRemote.sqlite */,
+				68B8EAF71BCDEB5100E12201 /* mapapi.bundle */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		688BB3B51BCE3595000AA4CA /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				688BB3B61BCE35A7000AA4CA /* FMDatabase.h */,
+				688BB3B71BCE35A7000AA4CA /* FMDatabase.m */,
+				688BB3B81BCE35A7000AA4CA /* FMDatabaseAdditions.h */,
+				688BB3B91BCE35A7000AA4CA /* FMDatabaseAdditions.m */,
+				688BB3BA1BCE35A7000AA4CA /* FMDatabasePool.h */,
+				688BB3BB1BCE35A7000AA4CA /* FMDatabasePool.m */,
+				688BB3BC1BCE35A7000AA4CA /* FMDatabaseQueue.h */,
+				688BB3BD1BCE35A7000AA4CA /* FMDatabaseQueue.m */,
+				688BB3BE1BCE35A7000AA4CA /* FMResultSet.h */,
+				688BB3BF1BCE35A7000AA4CA /* FMResultSet.m */,
+				688BB3C01BCE35A7000AA4CA /* HYfmbdManager.h */,
+				688BB3C11BCE35A7000AA4CA /* HYfmbdManager.m */,
+			);
+			name = fmdb;
+			sourceTree = "<group>";
+		};
+		688BB3C81BCE3985000AA4CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				688BB3C91BCE3997000AA4CA /* HYAdressInfo.h */,
+				688BB3CA1BCE3997000AA4CA /* HYAdressInfo.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		68B8EAD91BCDDD6900E12201 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68BCC4A71BD0D9A600E802B4 /* juhe */,
+				68B8EAE81BCDE9C200E12201 /* BaiduMap */,
+				68B8EADA1BCDDD9700E12201 /* MBProgressHUD */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68B8EADA1BCDDD9700E12201 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				68B8EADB1BCDDD9700E12201 /* MBProgressHUD+MJ.h */,
+				68B8EADC1BCDDD9700E12201 /* MBProgressHUD+MJ.m */,
+				68B8EADD1BCDDD9700E12201 /* MBProgressHUD.bundle */,
+				68B8EADE1BCDDD9700E12201 /* MBProgressHUD.h */,
+				68B8EADF1BCDDD9700E12201 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		68B8EAE81BCDE9C200E12201 /* BaiduMap */ = {
+			isa = PBXGroup;
+			children = (
+				68B8EAF31BCDEA1800E12201 /* Security.framework */,
+				68B8EAF11BCDEA0E00E12201 /* CoreGraphics.framework */,
+				68B8EAEF1BCDE9FC00E12201 /* SystemConfiguration.framework */,
+				68B8EAED1BCDE9F100E12201 /* OpenGLES.framework */,
+				68B8EAEB1BCDE9E700E12201 /* QuartzCore.framework */,
+				68B8EAE91BCDE9DF00E12201 /* CoreLocation.framework */,
+				68B8EAE51BCDE63300E12201 /* BaiduMapAPI.framework */,
+			);
+			name = BaiduMap;
+			sourceTree = "<group>";
+		};
+		68BCC4A71BD0D9A600E802B4 /* juhe */ = {
+			isa = PBXGroup;
+			children = (
+				68BCC4B21BD0DAB500E802B4 /* Foundation.framework */,
+				68BCC4B01BD0DAAA00E802B4 /* UIKit.framework */,
+				68BCC4AE1BD0DA7F00E802B4 /* MessageUI.framework */,
+				68BCC4AC1BD0DA6500E802B4 /* CoreTelephony.framework */,
+				68BCC4AA1BD0DA5500E802B4 /* AdSupport.framework */,
+				68BCC4A81BD0D9FE00E802B4 /* JuheApis.framework */,
+			);
+			name = juhe;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		684B5E391BCCCC9B00A5126A /* HYRemoteControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 684B5E5D1BCCCC9B00A5126A /* Build configuration list for PBXNativeTarget "HYRemoteControl" */;
+			buildPhases = (
+				684B5E361BCCCC9B00A5126A /* Sources */,
+				684B5E371BCCCC9B00A5126A /* Frameworks */,
+				684B5E381BCCCC9B00A5126A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYRemoteControl;
+			productName = HYRemoteControl;
+			productReference = 684B5E3A1BCCCC9B00A5126A /* HYRemoteControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		684B5E521BCCCC9B00A5126A /* HYRemoteControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 684B5E601BCCCC9B00A5126A /* Build configuration list for PBXNativeTarget "HYRemoteControlTests" */;
+			buildPhases = (
+				684B5E4F1BCCCC9B00A5126A /* Sources */,
+				684B5E501BCCCC9B00A5126A /* Frameworks */,
+				684B5E511BCCCC9B00A5126A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				684B5E551BCCCC9B00A5126A /* PBXTargetDependency */,
+			);
+			name = HYRemoteControlTests;
+			productName = HYRemoteControlTests;
+			productReference = 684B5E531BCCCC9B00A5126A /* HYRemoteControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		684B5E321BCCCC9B00A5126A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HY;
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = hyet;
+				TargetAttributes = {
+					684B5E391BCCCC9B00A5126A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					684B5E521BCCCC9B00A5126A = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 684B5E391BCCCC9B00A5126A;
+					};
+				};
+			};
+			buildConfigurationList = 684B5E351BCCCC9B00A5126A /* Build configuration list for PBXProject "HYRemoteControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 684B5E311BCCCC9B00A5126A;
+			productRefGroup = 684B5E3B1BCCCC9B00A5126A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				684B5E391BCCCC9B00A5126A /* HYRemoteControl */,
+				684B5E521BCCCC9B00A5126A /* HYRemoteControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		684B5E381BCCCC9B00A5126A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				688BB3B21BCE3382000AA4CA /* HYRemote.sqlite in Resources */,
+				684B5E491BCCCC9B00A5126A /* Main.storyboard in Resources */,
+				68B8EAF81BCDEB5100E12201 /* mapapi.bundle in Resources */,
+				68B8EAE11BCDDD9700E12201 /* MBProgressHUD.bundle in Resources */,
+				6862DC251BCE488E00CCD525 /* HYRecordTableViewCell.xib in Resources */,
+				684B5E4E1BCCCC9B00A5126A /* LaunchScreen.xib in Resources */,
+				355CB00C1C05900600ED6A68 /* DatePickerViewController.xib in Resources */,
+				684B5E4B1BCCCC9B00A5126A /* Images.xcassets in Resources */,
+				68209EE51BD1F3A100651E3F /* HYRemoteViewController.xib in Resources */,
+				351075711C04613D004A6CA8 /* icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		684B5E511BCCCC9B00A5126A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		684B5E361BCCCC9B00A5126A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B8EAE01BCDDD9700E12201 /* MBProgressHUD+MJ.m in Sources */,
+				355CB00B1C05900600ED6A68 /* DatePickerViewController.m in Sources */,
+				6862DC241BCE488E00CCD525 /* HYRecordTableViewCell.m in Sources */,
+				684B5E431BCCCC9B00A5126A /* AppDelegate.m in Sources */,
+				684B5E401BCCCC9B00A5126A /* main.m in Sources */,
+				688BB3C21BCE35A7000AA4CA /* FMDatabase.m in Sources */,
+				68B8EAFB1BCDF00300E12201 /* HYDeviceLocationViewController.mm in Sources */,
+				688BB3C51BCE35A7000AA4CA /* FMDatabaseQueue.m in Sources */,
+				68209EE41BD1F3A100651E3F /* HYRemoteViewController.m in Sources */,
+				688BB3C61BCE35A7000AA4CA /* FMResultSet.m in Sources */,
+				688BB3C71BCE35A7000AA4CA /* HYfmbdManager.m in Sources */,
+				6806D2E31BCCE6CB0012CB93 /* HYMainViewController.m in Sources */,
+				6806D2DA1BCCE5980012CB93 /* HYLoginViewController.m in Sources */,
+				6806D2E01BCCE6880012CB93 /* HYSearchViewController.m in Sources */,
+				688BB3CB1BCE3997000AA4CA /* HYAdressInfo.m in Sources */,
+				688BB3C31BCE35A7000AA4CA /* FMDatabaseAdditions.m in Sources */,
+				6806D2E61BCCE6D90012CB93 /* HYHelpViewController.m in Sources */,
+				68B8EAE21BCDDD9700E12201 /* MBProgressHUD.m in Sources */,
+				688BB3C41BCE35A7000AA4CA /* FMDatabasePool.m in Sources */,
+				6806D2E91BCCE6EC0012CB93 /* HYCurrentLocationViewController.m in Sources */,
+				6806D2DD1BCCE6480012CB93 /* HYRecordTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		684B5E4F1BCCCC9B00A5126A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				684B5E5A1BCCCC9B00A5126A /* HYRemoteControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		684B5E551BCCCC9B00A5126A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 684B5E391BCCCC9B00A5126A /* HYRemoteControl */;
+			targetProxy = 684B5E541BCCCC9B00A5126A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		684B5E471BCCCC9B00A5126A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				684B5E481BCCCC9B00A5126A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		684B5E4C1BCCCC9B00A5126A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				684B5E4D1BCCCC9B00A5126A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		684B5E5B1BCCCC9B00A5126A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		684B5E5C1BCCCC9B00A5126A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		684B5E5E1BCCCC9B00A5126A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/HYRemoteControl",
+				);
+				INFOPLIST_FILE = HYRemoteControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HYRemoteControl",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		684B5E5F1BCCCC9B00A5126A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/HYRemoteControl",
+				);
+				INFOPLIST_FILE = HYRemoteControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HYRemoteControl",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		684B5E611BCCCC9B00A5126A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HYRemoteControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYRemoteControl.app/HYRemoteControl";
+			};
+			name = Debug;
+		};
+		684B5E621BCCCC9B00A5126A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HYRemoteControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYRemoteControl.app/HYRemoteControl";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		684B5E351BCCCC9B00A5126A /* Build configuration list for PBXProject "HYRemoteControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				684B5E5B1BCCCC9B00A5126A /* Debug */,
+				684B5E5C1BCCCC9B00A5126A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		684B5E5D1BCCCC9B00A5126A /* Build configuration list for PBXNativeTarget "HYRemoteControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				684B5E5E1BCCCC9B00A5126A /* Debug */,
+				684B5E5F1BCCCC9B00A5126A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		684B5E601BCCCC9B00A5126A /* Build configuration list for PBXNativeTarget "HYRemoteControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				684B5E611BCCCC9B00A5126A /* Debug */,
+				684B5E621BCCCC9B00A5126A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 684B5E321BCCCC9B00A5126A /* Project object */;
+}
